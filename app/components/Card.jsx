@@ -14,7 +14,7 @@ const josefin = Josefin_Sans({
 
 const Card = ({imgSrc, productTitle, productCode, productPrice}) => {
   return (
-    <div className="w-[270px] h-[361px] flex flex-col justify-between shadow-xl/30 group hover:scale-105 transition duration-200">
+    <div className="w-[270px] h-[361px] flex flex-col justify-between shadow-xl/30 group hover:scale-105 transition duration-200 mb-32">
         <div className='h-[236px] bg-gray-300'>
             <Image src={imgSrc} alt="product image" width={270} height={236} className='object-cover' />
         </div>
